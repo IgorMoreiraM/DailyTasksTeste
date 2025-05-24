@@ -68,7 +68,7 @@ Siga os passos abaixo para configurar e executar o projeto em seu ambiente local
     * Abra o arquivo `DatabaseConnector.java` (localizado em `org/example/DatabaseConnector.java` conforme a última alteração de pacote).
     * Ajuste as constantes `URL`, `USUARIO` e `SENHA` para refletir sua configuração local do PostgreSQL:
         ```java
-        private static final String URL = "jdbc:postgresql://localhost:5432/dailytasks_db"; // Verifique o nome do seu banco
+        private static final String URL = "jdbc:postgresql://localhost:5432/DailyTasks"; // Verifique o nome do seu banco
         private static final String USUARIO = "seu_usuario_postgres"; // Seu usuário do PostgreSQL
         private static final String SENHA = "sua_senha_postgres";   // Sua senha
         ```
